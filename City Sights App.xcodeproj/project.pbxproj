@@ -14,6 +14,7 @@
 		00D01F5929CD6A47005711C1 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D01F5829CD6A47005711C1 /* ContentModel.swift */; };
 		00D01F5B29D2816F005711C1 /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D01F5A29D2816F005711C1 /* Business.swift */; };
 		00D01F5D29D2B014005711C1 /* BusinessSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D01F5C29D2B014005711C1 /* BusinessSearch.swift */; };
+		00D01F6129D7CC43005711C1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D01F6029D7CC43005711C1 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		00D01F5829CD6A47005711C1 /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
 		00D01F5A29D2816F005711C1 /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
 		00D01F5C29D2B014005711C1 /* BusinessSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSearch.swift; sourceTree = "<group>"; };
+		00D01F6029D7CC43005711C1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				00D01F5229CD27E6005711C1 /* Views */,
 				00D01F5329CD27EE005711C1 /* ViewModels */,
 				00D01F5429CD27F9005711C1 /* Models */,
+				00D01F5E29D7CBBA005711C1 /* Helpers */,
 				00D01F4829CD273F005711C1 /* Assets.xcassets */,
 				00D01F4A29CD273F005711C1 /* Preview Content */,
 			);
@@ -98,6 +101,14 @@
 				00D01F5C29D2B014005711C1 /* BusinessSearch.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		00D01F5E29D7CBBA005711C1 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				00D01F6029D7CC43005711C1 /* Constants.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,6 +186,7 @@
 				00D01F4529CD273E005711C1 /* CitySightsApp.swift in Sources */,
 				00D01F5D29D2B014005711C1 /* BusinessSearch.swift in Sources */,
 				00D01F5929CD6A47005711C1 /* ContentModel.swift in Sources */,
+				00D01F6129D7CC43005711C1 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
